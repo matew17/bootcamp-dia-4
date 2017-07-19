@@ -1,0 +1,5 @@
+<div *ngIf="total">
+  The {{article}} cost: {{cost | currency:'USD':true:'4.2-2' }}
+  <br> The VAT is: {{vat | currency:'USD':true:'4.2-2' }}
+  <br> the total is: {{total | currency:'USD':true:'4.2-2'}}
+</div>

@@ -1,0 +1,7 @@
+<div>
+  <label for="Article" >Article</label>
+  <input type="text" #product>
+  <label for="Value">Value</label>
+  <input type="text" #value>
+  <button type="button" (click)="calculateVat(product.value, value.value)">submit</button>
+</div>
